@@ -1,0 +1,165 @@
+CRITICAL - 2020-09-26 09:45:41 --> syntax error, unexpected 'dist' (T_STRING), expecting ')'
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/gallery', Array, true)
+#1 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Page.php(31): view('page/gallery')
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Page->gallery()
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-26 09:47:16 --> syntax error, unexpected 'dist' (T_STRING), expecting ')'
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/gallery', Array, true)
+#1 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Page.php(31): view('page/gallery')
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Page->gallery()
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-26 09:48:46 --> syntax error, unexpected 'dist' (T_STRING), expecting ')'
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/gallery', Array, true)
+#1 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Page.php(31): view('page/gallery')
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Page->gallery()
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-26 09:50:14 --> Invalid file: page/pricing.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/pricing.ph...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/pricing', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Page.php(35): view('page/pricing')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Page->pricing()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 09:51:08 --> Invalid file: page/contact-us.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/contact-us...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/contact-us', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Page.php(40): view('page/contact-us')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Page->contact_us()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:11:46 --> Invalid file: extra/map-google.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/map-googl...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/map-googl...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(8): view('extra/map-googl...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->index()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:13:05 --> Invalid file: extra/map-vector.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/map-vecto...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/map-vecto...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(12): view('extra/map-vecto...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->map_vector()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:18:17 --> Invalid file: extra/blog-list.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/blog-list...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/blog-list', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(16): view('extra/blog-list')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->blog_list()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:19:47 --> Invalid file: extra/blog-single.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/blog-sing...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/blog-sing...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(20): view('extra/blog-sing...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->blog_single()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:20:45 --> Invalid file: extra/ecommerce-product-list.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/ecommerce...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(24): view('extra/ecommerce...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_product_list()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:22:39 --> Invalid file: extra/ecommerce-product-detail.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/ecommerce...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(28): view('extra/ecommerce...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_product_detail()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:23:57 --> Invalid file: extra/ecommerce-cart.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/ecommerce...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(32): view('extra/ecommerce...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_cart()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:24:56 --> Invalid file: extra/ecommerce-checkout.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/ecommerce...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(36): view('extra/ecommerce...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_checkout()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:25:50 --> syntax error, unexpected ''dist/images/paypal.png" alt="' (T_ENCAPSED_AND_WHITESPACE)
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#1 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(36): view('extra/ecommerce...')
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_checkout()
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-26 10:25:53 --> syntax error, unexpected ''dist/images/paypal.png" alt="' (T_ENCAPSED_AND_WHITESPACE)
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#1 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(36): view('extra/ecommerce...')
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_checkout()
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-26 10:26:21 --> Invalid file: extra/ecommerce-orders.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/ecommerce...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(40): view('extra/ecommerce...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_orders()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-26 10:27:03 --> Invalid file: extra/ecommerce-order-view.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra/ecommerce...')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('extra/ecommerce...', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Extra.php(44): view('extra/ecommerce...')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Extra->ecommerce_order_view()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Extra))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}

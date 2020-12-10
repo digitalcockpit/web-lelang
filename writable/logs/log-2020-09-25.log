@@ -1,0 +1,64 @@
+CRITICAL - 2020-09-25 07:03:42 --> Cannot use object of type CodeIgniter\Router\RouteCollection as array
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\pick\codeigniter\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-25 07:03:54 --> Cannot use object of type CodeIgniter\Router\RouteCollection as array
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\pick\codeigniter\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-25 07:18:23 --> Call to a member function map() on null
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Array)
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\pick\codeigniter\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-25 07:18:24 --> Call to a member function map() on null
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Array)
+#2 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\pick\codeigniter\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-25 08:55:27 --> Invalid file: dashboard/home.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/home....')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Home.php(7): view('dashboard/home')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-25 08:55:28 --> Invalid file: dashboard/home.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/home....')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Home.php(7): view('dashboard/home')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-25 08:58:47 --> Invalid file: home.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Home.php(11): view('home')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->account()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-25 08:58:49 --> Invalid file: home.php
+#0 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 D:\xampp\htdocs\pick\codeigniter\app\Controllers\Home.php(11): view('home')
+#3 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->account()
+#4 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\pick\codeigniter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\pick\codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#8 {main}
