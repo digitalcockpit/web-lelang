@@ -2,14 +2,30 @@
 
 <?= $this->section('pagestyles') ?>
 <!-- START: Page CSS-->
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/chartjs/Chart.min.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/morris/morris.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/weather-icons/css/pe-icon-set-weather.min.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/chartjs/Chart.min.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/starrr/starrr.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/fontawesome/css/all.min.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/ionicons/css/ionicons.min.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('dist/vendors/jquery-jvectormap/jquery-jvectormap-2.0.3.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/chartjs/Chart.min.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/morris/morris.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/weather-icons/css/pe-icon-set-weather.min.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/chartjs/Chart.min.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/starrr/starrr.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/fontawesome/css/all.min.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/ionicons/css/ionicons.min.css'
+); ?>">
+<link rel="stylesheet" href="<?php echo base_url(
+    'dist/vendors/jquery-jvectormap/jquery-jvectormap-2.0.3.css'
+); ?>">
 <!-- END: Page CSS-->
 <?= $this->endSection() ?>
 
@@ -19,7 +35,7 @@
     <div class="col-12  align-self-center">
         <div class="sub-header mt-3 py-3 align-self-center d-sm-flex w-100 rounded">
             <div class="w-sm-100 mr-auto">
-                <h4 class="mb-0">Dashboard WEB-LELANG</h4>
+                <h4 class="mb-0">Dashboard</h4>
                 <p>Web Lelang admin panel</p>
             </div>
 
@@ -359,7 +375,9 @@
 
 <?= $this->section('pagescript') ?>
 <!-- START: Page JS-->
-<script src="<?php echo base_url('dist/vendors/apexcharts/apexcharts.min.js'); ?>"></script>
+<script src="<?php echo base_url(
+    'dist/vendors/apexcharts/apexcharts.min.js'
+); ?>"></script>
 <script src="<?php echo base_url('dist/js/home.script.js'); ?>"></script>
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <!-- <script src="https://code.highcharts.com/maps/modules/exporting.js"></script> -->
